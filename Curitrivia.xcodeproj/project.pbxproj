@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		3070DEC22A79266F000F73C6 /* CuritriviaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070DEC12A79266F000F73C6 /* CuritriviaApp.swift */; };
-		3070DEC42A79266F000F73C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070DEC32A79266F000F73C6 /* ContentView.swift */; };
-		3070DEC62A79266F000F73C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3070DEC52A79266F000F73C6 /* Assets.xcassets */; };
 		3070DEC92A79266F000F73C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3070DEC82A79266F000F73C6 /* Preview Assets.xcassets */; };
 		3070DED32A792670000F73C6 /* CuritriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070DED22A792670000F73C6 /* CuritriviaTests.swift */; };
 		3070DEDD2A792670000F73C6 /* CuritriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070DEDC2A792670000F73C6 /* CuritriviaUITests.swift */; };
 		3070DEDF2A792670000F73C6 /* CuritriviaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070DEDE2A792670000F73C6 /* CuritriviaUITestsLaunchTests.swift */; };
+		3070DEF02A7930AD000F73C6 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070DEEF2A7930AD000F73C6 /* Menu.swift */; };
+		3070DEF42A7930DF000F73C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070DEF32A7930DF000F73C6 /* ContentView.swift */; };
+		3070DEF72A793928000F73C6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070DEF62A793928000F73C6 /* Model.swift */; };
+		3070DEF92A793D3E000F73C6 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070DEF82A793D3E000F73C6 /* Play.swift */; };
+		309D82882A7980320040471D /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D82872A7980320040471D /* QuestionView.swift */; };
+		309D828A2A799D170040471D /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D82892A799D170040471D /* StatsView.swift */; };
+		30A6495A2A79BBE400B3E0ED /* QuestionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A649592A79BBE400B3E0ED /* QuestionRepository.swift */; };
+		30A6495E2A7AD33F00B3E0ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A6495D2A7AD33F00B3E0ED /* Assets.xcassets */; };
+		30A649622A7BD7B400B3E0ED /* RankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A649612A7BD7B400B3E0ED /* RankingView.swift */; };
+		30A649642A7BDCB800B3E0ED /* RankingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A649632A7BDCB800B3E0ED /* RankingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +44,22 @@
 /* Begin PBXFileReference section */
 		3070DEBE2A79266F000F73C6 /* Curitrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Curitrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3070DEC12A79266F000F73C6 /* CuritriviaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuritriviaApp.swift; sourceTree = "<group>"; };
-		3070DEC32A79266F000F73C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3070DEC52A79266F000F73C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3070DEC82A79266F000F73C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3070DECE2A792670000F73C6 /* CuritriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuritriviaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3070DED22A792670000F73C6 /* CuritriviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuritriviaTests.swift; sourceTree = "<group>"; };
 		3070DED82A792670000F73C6 /* CuritriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuritriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3070DEDC2A792670000F73C6 /* CuritriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuritriviaUITests.swift; sourceTree = "<group>"; };
 		3070DEDE2A792670000F73C6 /* CuritriviaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuritriviaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3070DEEF2A7930AD000F73C6 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		3070DEF32A7930DF000F73C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3070DEF62A793928000F73C6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3070DEF82A793D3E000F73C6 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
+		309D82872A7980320040471D /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		309D82892A799D170040471D /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		30A649592A79BBE400B3E0ED /* QuestionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRepository.swift; sourceTree = "<group>"; };
+		30A6495D2A7AD33F00B3E0ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30A649612A7BD7B400B3E0ED /* RankingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingView.swift; sourceTree = "<group>"; };
+		30A649632A7BDCB800B3E0ED /* RankingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +110,12 @@
 		3070DEC02A79266F000F73C6 /* Curitrivia */ = {
 			isa = PBXGroup;
 			children = (
+				3070DEF32A7930DF000F73C6 /* ContentView.swift */,
 				3070DEC12A79266F000F73C6 /* CuritriviaApp.swift */,
-				3070DEC32A79266F000F73C6 /* ContentView.swift */,
-				3070DEC52A79266F000F73C6 /* Assets.xcassets */,
+				30A649592A79BBE400B3E0ED /* QuestionRepository.swift */,
+				30A649632A7BDCB800B3E0ED /* RankingManager.swift */,
+				3070DEF62A793928000F73C6 /* Model.swift */,
+				3070DEF52A793100000F73C6 /* Views */,
 				3070DEC72A79266F000F73C6 /* Preview Content */,
 			);
 			path = Curitrivia;
@@ -125,6 +144,19 @@
 				3070DEDE2A792670000F73C6 /* CuritriviaUITestsLaunchTests.swift */,
 			);
 			path = CuritriviaUITests;
+			sourceTree = "<group>";
+		};
+		3070DEF52A793100000F73C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3070DEEF2A7930AD000F73C6 /* Menu.swift */,
+				3070DEF82A793D3E000F73C6 /* Play.swift */,
+				30A649612A7BD7B400B3E0ED /* RankingView.swift */,
+				309D82872A7980320040471D /* QuestionView.swift */,
+				309D82892A799D170040471D /* StatsView.swift */,
+				30A6495D2A7AD33F00B3E0ED /* Assets.xcassets */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +263,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A6495E2A7AD33F00B3E0ED /* Assets.xcassets in Resources */,
 				3070DEC92A79266F000F73C6 /* Preview Assets.xcassets in Resources */,
-				3070DEC62A79266F000F73C6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +289,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3070DEC42A79266F000F73C6 /* ContentView.swift in Sources */,
+				3070DEF02A7930AD000F73C6 /* Menu.swift in Sources */,
 				3070DEC22A79266F000F73C6 /* CuritriviaApp.swift in Sources */,
+				3070DEF42A7930DF000F73C6 /* ContentView.swift in Sources */,
+				30A649642A7BDCB800B3E0ED /* RankingManager.swift in Sources */,
+				30A6495A2A79BBE400B3E0ED /* QuestionRepository.swift in Sources */,
+				3070DEF72A793928000F73C6 /* Model.swift in Sources */,
+				309D82882A7980320040471D /* QuestionView.swift in Sources */,
+				30A649622A7BD7B400B3E0ED /* RankingView.swift in Sources */,
+				309D828A2A799D170040471D /* StatsView.swift in Sources */,
+				3070DEF92A793D3E000F73C6 /* Play.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
